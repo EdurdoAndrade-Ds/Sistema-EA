@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-image: linear-gradient(45deg, cyan, yellow); */
+    background-image: linear-gradient(to right, rgb(20, 147, 220) , rgb(17, 54, 71));
+
+}
+
+.div-login {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+button {
+    background-color: dodgerblue;
+    border: none;
+    padding:15px ;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+.bodyHome {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20, 147, 220) , rgb(17, 54, 71));
+    text-align: center;
+    color: white;
+}
+
+.boxHome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#h4 {
+    position: absolute;
+    top: 10%;
+    left: 250px;
+    transform: translate(-50%);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: 3px solid dodgerblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: dodgerblue;
+}
+
+.inputSubmit {
+    background-color: dodgerblue;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.inputSubmit:hover {
+    background-color: deepskyblue;
+}
+
+table {
+   position: absolute;
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   border: 2px solid black;
+}
+
+table th, td{
+   border: 2px solid black;
+}
+
+.table {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 15px 15px 0 0;
+    margin-top: 90px;
+}
+
+#edit {
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    text-align: center;
+}
+
+/* .svg-edit {
+    margin-left: -9px;
+    margin-top: -20px;
+} */
